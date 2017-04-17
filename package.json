@@ -1,1 +1,40 @@
-{     "devDependencies": {         "rnpm": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-rnpm",     "homepage": "https://github.com/npmtest/node-npmtest-rnpm",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-rnpm.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [rnpm (v1.9.0)](https://github.com/rnpm/rnpm#readme) [![npm package](https://img.shields.io/npm/v/npmtest-rnpm.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rnpm) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rnpm.svg)](https://travis-ci.org/npmtest/node-npmtest-rnpm)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "rnpm": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-rnpm",
+    "keywords": [
+        "coverage",
+        "test",
+        "rnpm"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_rnpm.js",
+    "name": "npmtest-rnpm",
+    "nameAlias": "npmtest_rnpm",
+    "nameOriginal": "npmtest-rnpm",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-rnpm.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
