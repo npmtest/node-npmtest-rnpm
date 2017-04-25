@@ -1,4 +1,7 @@
-# test coverage for  [rnpm (v1.9.0)](https://github.com/rnpm/rnpm#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-rnpm.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rnpm) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rnpm.svg)](https://travis-ci.org/npmtest/node-npmtest-rnpm)
+# npmtest-rnpm
+
+#### basic test coverage for  [rnpm (v1.9.0)](https://github.com/rnpm/rnpm#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-rnpm.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rnpm) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rnpm.svg)](https://travis-ci.org/npmtest/node-npmtest-rnpm)
+
 #### React Native Package Manager
 
 [![NPM](https://nodei.co/npm/rnpm.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/rnpm)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-rnpm/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-rnpm/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-rnpm/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-rnpm/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rnpm/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rnpm/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-rnpm/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-rnpm/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-rnpm/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-rnpm/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-rnpm/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-rnpm/build/coverage.html/index.html)
 

@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [rnpm (v1.9.0)](https://github.com/rnpm/rnpm#readme) [![npm package](https://img.shields.io/npm/v/npmtest-rnpm.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rnpm) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rnpm.svg)](https://travis-ci.org/npmtest/node-npmtest-rnpm)",
+    "description": "#### basic test coverage for  [rnpm (v1.9.0)](https://github.com/rnpm/rnpm#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-rnpm.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-rnpm) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-rnpm.svg)](https://travis-ci.org/npmtest/node-npmtest-rnpm)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "rnpm": "*",
